@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: red;
+  font-family: Arial;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.menu {
+  width: 300px;
+  margin: auto;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 0px 20px;
+}/*# sourceMappingURL=style.css.map */

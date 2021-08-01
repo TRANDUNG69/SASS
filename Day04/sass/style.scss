@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// ! Sử dụng biến
+$myColor: red;
+// Biến toàn cục
+h1{
+    color: $myColor;
+}
+h2{
+    $MyColor: green;
+    color: $MyColor;
+}
+h3{
+    // color: $MyColor;
+    // Ko sd đc
+    color: $myColor;
+    font: {
+        family: Arial;
+        size: 30px
+    };
+    text: {
+        align: center;
+        decoration: underline;
+    }
+}
+// Ta có 2 cách viết scss
+// ! Cách 1 viết như css thuần
+// .menu{
+// width: 300px;
+// margin: auto;
+// }
+// .menu ul{
+
+// }
+// .menu ul li {
+//     display: inline-block;
+// }
+// .menu ul li a{
+//     text-decoration: none;
+//     padding: 0px 20px;
+// }
+// ? Cách 2;
+.menu{
+    width: 300px;
+    margin: auto;
+    ul{
+
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                padding: 0px 20px;
+            }
+        }
+    }
+}
+// TODO Ưu tiên cách viết thứ 2 bởi vì nó rất gọn và độ chính xác cao cũng như fix bug dễ
