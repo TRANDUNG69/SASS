@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+  font-size: 40px;
+  border: 2px solid red;
+}
+
+h2 {
+  color: red;
+  font-size: 40px;
+  border: 1px solid purple;
+}
+
+h3 {
+  border: 5px solid blue;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+}/*# sourceMappingURL=style.css.map */

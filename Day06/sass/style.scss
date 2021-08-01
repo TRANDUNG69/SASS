@@ -1,0 +1,40 @@
+@mixin text {
+    color: red;
+    font-size: 40px;
+}
+@mixin color {
+    
+}
+// ?Một mixin có thể bao gồm nhiều mixin khác
+@mixin box{
+    @include text();
+    @include color();
+
+}
+@mixin border($color: purple, $width: 1px){
+    border: $width solid $color;
+    
+}
+// ! Truyền biến cho mixin
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+}
+
+@mixin transform($property){
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+}
+h1{
+    @include text;
+    @include bordered(red,2px )
+}
+h2{
+    @include text();
+    @include border();
+}
+h3{
+    @include border(blue, 5px);
+    @include transform(rotate(20deg));
+}
+
