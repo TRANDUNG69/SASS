@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: block;
+    width: 100px;
+    text-align:center;
+    margin: auto;
+    button{
+        width:  100%;
+        margin-bottom: 20px;
+    }
+    .success{
+        color: red;
+        background: rgb(44, 172, 44);
+        outline: none;
+        border: none;
+        padding: 5px 0px;
+    }
+    .warning{
+        @extend .success;
+        background: yellow;
+    }
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+div button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+div .success, div .warning {
+  color: red;
+  background: #2cac2c;
+  outline: none;
+  border: none;
+  padding: 5px 0px;
+}
+div .warning {
+  background: yellow;
+}/*# sourceMappingURL=style.css.map */
