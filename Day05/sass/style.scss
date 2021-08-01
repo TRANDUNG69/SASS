@@ -1,0 +1,8 @@
+@import "reset";
+$MyColor: red;
+$myColor: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+// Nếu thêm _file.scss thì sẽ không được biên dịch ra file.css
