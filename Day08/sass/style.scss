@@ -1,0 +1,23 @@
+$MyColor: red;
+$myColor: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin borderd($color, $width) {
+    border: $width solid $color ;
+}
+@mixin text{
+    text-decoration: line-through;
+    color: $MyColor;
+    text-align: center
+}
+
+h1{
+    @include borderd(purple,2px);
+    @include text();
+
+}
+h2{
+    @extend h1;
+}
