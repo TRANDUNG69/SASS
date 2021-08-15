@@ -1,17 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.container{
+.container {
     width: 500px;
     margin: auto;
     font-family: Arial;
     margin-top: 50px;
-    ul{
+
+    ul {
         width: 100%;
-        li{
+
+        li {
             display: inline-block;
-            a{
+
+            a {
                 text-decoration: none;
                 width: 100%;
                 padding: 5px 20px;
@@ -19,6 +18,8 @@
                 color: white;
                 border: 2px solid purple
             }
-        };
+        }
+
+        ;
     }
 }
